@@ -1,4 +1,4 @@
-from imobiliaria.def_imob import *
+from def_imob import *
 
 
 def lerArquivo(nome):
