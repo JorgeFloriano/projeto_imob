@@ -1,4 +1,5 @@
-from imobiliaria import *
+from def_imob import *
+from arquivo import *
 
 import os
 
@@ -33,5 +34,3 @@ while True:
             cadastroLista(arq, listaplan)  # salva lista em arq apos alterações
             s = input(f'Pressione enter para voltar para o menu inicial.')
     opc = val('Editar lista - 1 / Reiniciar lista - 2 / Sair - 0: ', 3)
-
-
